@@ -1,0 +1,64 @@
+.user-page-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 100%; /* Set maximum width to 100% */
+  margin: 0 auto; /* Center align */
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
